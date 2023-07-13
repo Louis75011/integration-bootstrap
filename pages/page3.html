@@ -5,43 +5,16 @@
     <title>Exercice Bootstrap</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-        article {
-            background-color: rgb(255, 228, 196);
-            border-radius: 10px;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-
-        section {
-            background-color: lavender;
-            border-radius: 10px;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-
-        .fade-in {
-            animation: fadeIn 0.9s ease-in;
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Mon Site</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,22 +22,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="maPage1.html">Page 1</a>
+                    <a class="nav-link" href="page1.html">Page 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="maPage2.html">Page 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="maPage3.html">Page 3</a>
+                    <a class="nav-link" href="page2.html">Page 2</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="maPage4.html">Page 4</a>
+                    <a class="nav-link" href="page3.html">Page 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="page4.html">Page 4</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <h1>Ma page bootstrap 3</h1>
+    <h1>Ma 3e page Boostrap</h1>
 
     <div class="container">
         <div class="row">
@@ -74,7 +47,7 @@
                     <p>Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latasque leges
                         fundamenta liberatis et retinacula sempiterna velut frugi parens et prudens et dives Caesaribus
                         tamquam liberis suis regenda patrimonii iura permisit.</p>
-                    <img src="images/Aire.jpg" alt="Aire" class="img-fluid" />
+                    <img src="../images/Aire.jpg" alt="Aire, document" class="img-fluid" />
                     <p>Sed (saepe enim redeo ad Scipionem, cuius omnis sermo erat de amicitia) querebatur, quod omnibus
                         in rebus homines diligentiores essent.</p>
                 </article>
@@ -108,7 +81,7 @@
                         in ipsa amicitia. Ita praecurrit amicitia iudicium tollitque experiendi potestatem.</p>
                     <div class="row">
                         <div class="col">
-                            <img src="images/montagne.jpg" alt="Image Montagne" class="img-fluid rounded">
+                            <img src="../images/montagne.jpg" alt="Image Montagne" class="img-fluid rounded">
                         </div>
                     </div>
                 </article>
@@ -123,7 +96,7 @@
                         exitium addens quaedam relationibus supervacua, quas subinde dimittebat ad principem.</p>
                     <div class="row">
                         <div class="col">
-                            <img src="images/jules-verne.jpg" alt="Image Jules Verne" class="img-fluid rounded-circle">
+                            <img src="../images/jules-verne.jpg" alt="Image Jules Verne" class="img-fluid rounded-circle">
                         </div>
                     </div>
                 </article>
